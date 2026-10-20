@@ -28,7 +28,8 @@ y = np.linspace(0, h, ny)
 U[:, 0] = 0
 
 ## Define boundary conditions
-U[0, :] = 40
+u0 = 40
+U[0, :] = u0
 U[ny - 1, :] = 0
 
 ## Diffusion number, d (must be less than or equal to 1/2 for convergence?)
