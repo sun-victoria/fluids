@@ -36,8 +36,7 @@ axes = axes.flatten()
 
 for index, u_i in enumerate(u_graph):
     ax = axes[index]
-    print(u_i)
-
+    
     for i, t in enumerate(time_steps):
     
         color_fraction = i / (len(time_steps) - 1)
